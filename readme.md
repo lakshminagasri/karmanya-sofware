@@ -1,17 +1,18 @@
 Read Me
-1. First clone the repository in your local machine and swith to master branch
+1. First clone the repository in your local machine in xampp/htdocs folder
 
    git clone https://github.com/lakshminagasri/karmanya-sofware.git
 
-   To switch to branch run the command
+2. Go to the clones path(folder) from command line and switch to branch run the command
+  example:c:\xampp\htdocs\karmanya-sofware> git checkout master
   
    git checkout master
 
-2. Go to the folder, run the command
+3. Go to the folder, run the command
 
    composer install
 
-3. Enter the following command in windows to copy the .env file
+4. Enter the following command in windows to copy the .env file
  
    copy .env.example .env
 
@@ -19,19 +20,19 @@ Read Me
   
   cp .env.example .env
 
-4. Then run the command
+5. Then run the command
 
    php artisan key:generate
 
-5. Create the database ex:'karmanyasoftware' in phpmyadmin manually and then put the database name in .env file and also username and password of your database.
+6. Create the database ex:'karmanyasoftware' in phpmyadmin manually and then put the database name in .env file and also username and password of your database.
 
-6. Run the command to create database structure
+7. Run the command to create database structure
 
    php artisan migrate 
 
-7. Open the application in localhost  http://localhost/karmanyasoftware/public/userslist
+8. Open the application in browse with the url  http://localhost/karmanyasoftware/public/userslist
 
-8. Create the roles,permission, users by clicking on respective buttons and you can perform crud operation.
+9. Create the roles,permission, users by clicking on respective buttons and you can perform crud operation.
 
 
 
