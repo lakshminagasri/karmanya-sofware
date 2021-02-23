@@ -4,11 +4,11 @@ Read Me
    git clone https://github.com/lakshminagasri/karmanya-sofware.git
 
 2. Go to the clones path(folder) from command line and switch to branch run the command
-  example:c:\xampp\htdocs\karmanya-sofware> git checkout master
+   example:c:\xampp\htdocs\karmanya-sofware> git checkout master
   
    git checkout master
 
-3. Go to the folder, run the command
+3. Run the command
 
    composer install
 
