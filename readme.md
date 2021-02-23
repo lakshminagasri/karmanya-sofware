@@ -4,15 +4,19 @@ Read Me
   git clone https://github.com/lakshminagasri/karmanya-sofware.git
 
   To switch to branch run the command
+  
   git checkout master
 
 2. Go to the folder, run the command
+
    composer install
 
 3. Enter the following command in windows to copy the .env file
+ 
    copy .env.example .env
 
   If you are using linux platfrom
+  
   cp .env.example .env
 
 4. Then run the command
